@@ -4070,6 +4070,15 @@ label>input[type="checkbox"], label>input[type="radio"] {
  * resume
  * ------------------------------------------------------------------- */
 
+ @media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .certification {
+        width: 92%;
+        height: 54%;
+    }
+}
+
+
+
 @media screen and (max-width: 1200px) {
     .certification {
         width: 75%;
