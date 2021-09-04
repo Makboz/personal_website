@@ -3361,6 +3361,20 @@ input, textarea, select, pre, blockquote, figure, figcaption, table, p, ul, ol, 
     transition: all, .5s;
 }
 
+.padded {
+    padding-right: 0%;
+}
+
+.padder {
+    padding-right: 1%;
+}
+
+@media screen and (max-width: 800px) {
+    .padded {
+        padding-right: 4%;
+    }
+}
+
 /* on hover
  *---------------------------------------------- */
 
@@ -3444,16 +3458,29 @@ input, textarea, select, pre, blockquote, figure, figcaption, table, p, ul, ol, 
 }
 
 .modal-popup__details {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.75);
     font-size: var(--text-sm);
-    line-height: calc(var(--vspace-1_5) - 2px);
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    line-height: calc(var(--vspace-1_5) - 8px);
+    border: 1px solid rgba(255, 255, 255, 0.30);
     color: white;
     border-radius: var(--border-radius);
     padding: 0 1.4rem;
     position: absolute;
     top: var(--vspace-1_25);
     left: 4rem;
+}
+
+.modal-github__details {
+    background-color: rgba(0, 0, 0, 0.75);
+    font-size: var(--text-sm);
+    line-height: calc(var(--vspace-1_5) - 8px);
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    color: white;
+    border-radius: var(--border-radius);
+    padding: 0rem 1.2rem;
+    position: absolute;
+    top: var(--vspace-1_25);
+    right: 4rem;
 }
 
 .modal-popup__details:hover, .modal-popup__details:focus {
