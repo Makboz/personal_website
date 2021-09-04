@@ -3365,6 +3365,10 @@ input, textarea, select, pre, blockquote, figure, figcaption, table, p, ul, ol, 
     padding-right: 0%;
 }
 
+.bq-padded {
+    padding-right: 0%;
+}
+
 .padder {
     padding-right: 1%;
 }
@@ -3372,6 +3376,9 @@ input, textarea, select, pre, blockquote, figure, figcaption, table, p, ul, ol, 
 @media screen and (max-width: 800px) {
     .padded {
         padding-right: 4%;
+    }
+    .bq-padded {
+        padding-right: 2%;
     }
 }
 
