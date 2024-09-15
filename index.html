@@ -108,7 +108,7 @@
                     </h3>
 
                     <div class="s-hero__content-social">
-                        <a href="https://www.linkedin.com/in/mahad-ali-khan-6398a417b/"><i class="fab fa-linkedin"
+                        <a href="https://www.linkedin.com/in/mahad-khan-6398a417b/"><i class="fab fa-linkedin"
                             aria-hidden="true"></i></a>
                         <a href="https://github.com/mahad-ak"><i class="fab fa-github" aria-hidden="true"></i></a>
                         <a href="https://www.facebook.com/mahad.khan.9083"><i class="fab fa-facebook-square"
@@ -141,17 +141,65 @@
     ================================================== -->
     <section id="about" class="s-about target-section">
 
-        <div class="row border">
+        <div class="row"> <!--For bottom border, add "border" in class-->
             <div class="column large-4 medium-4 small-8 tab-6 mob-12">
                 <img class="s-about__pic" src="images/pro3.jpg" alt="">
             </div>
             <div class="column large-8 medium-8 small-8 tab-12 s-about__content" style="text-align: center;">
                 <h3 class="section-header-allcaps about_me" style="color: white; font-size: 2.8rem">ABOUT ME</h3>
                 <p style="text-align: left;">
-                    I possess an entrepreneurial mindset with a strong passion to create technologies that enable
-                    people and businesses to grow!
-                    This mindset has recently led me to some of my most rewarding yet challenging journeys ever.
+                    Hey there! I'm a Computer Science student at the University of Waterloo. Through my academic journey and internships, l've gained over a year of hands-on experience in various aspects of software engineering, including full-stack development, devops practices, and mobile app development.
+                    I thrive in dynamic environments that push me to tackle new challenges and expand my knowledge. Recently, this drive has led me to embark on some of my most rewarding and ambitious projects yet.
                     <br><br>
+
+
+                    <div class="dropdown">
+                        <button class="" id="about_AirCanada"> 🛫 8-month Internship with <b
+                                style="color:#f80000; font-family:'Courier New'; font-size: 2.5rem;">Air Canada</b> 🛬 <b
+                                style="color:#101010">s</b> <i id="down_AirCanada" class="fas fa-chevron-down"
+                                style="display:inline-block;"></i> <i id="up_AirCanada" class="fas fa-chevron-up"
+                                style="display:none;"></i></button>
+                        <div class="dropdown-content" id="about_AirCanada_content" style="display: none;">
+                            <p style="text-align: left; font-size: 1.65rem;">
+                                Having recently concluded my internship as a Software Developer at Air Canada, I am immensely proud to have been part of the incredible team working on the revamp of AC Cargo Application project — a crucial initiative that impacts millions of customers worldwide. ✈ <br><br>
+
+                                Throughout my tenure, I had the privilege of collaborating closely with a talented group of product designers, QA specialists, and both back-end and front-end developers. 🚀 Together, we embarked on an exciting journey, utilizing technologies like Angular and TypeScript to drive key initiatives that enhanced the platform's capabilities and performance. 
+                                
+                                <br><br>
+                                The highlights of my internship include:
+                                
+                                <ul style="text-align: left; font-size: 1.65rem;">
+                                    <li>Streamlining Integration of Real-Time Flight Data: Process and display relevant real-time flight data to users, crucial for efficient cargo bookings. 🛫</li>
+                                    <li>Implementing Dynamic Data Loaders: Leverage RxJS observables to efficiently manage data flow and enhance user engagement through interactive, real-time updates.</li>
+                                    <li>Crafting Robust Data Validation: Use Angular Reactive Forms and state management to drastically minimize errors during cargo bookings and ensure reliability at every step. 📋</li>
+                                    <li>Revolutionizing the UI for Cargo Booking: Simplify the creation of customized bookings, enhance editing flows for quicker adjustments to bookings, and streamline tracking to keep users informed and engaged from start to finish. 📦</li>
+                                </ul>
+                                <p style="text-align: left; font-size: 1.65rem;">
+                                    <br>
+                                    I'm incredibly proud to have contributed to these transformative changes that are reshaping how cargo is managed globally, making it smoother and more user-friendly. ✈️
+                                    
+                                    <br><br>
+                                    This internship has significantly broadened my technical skills and deepened my appreciation for teamwork and innovation in software development. I'm excited to carry these learnings forward into new challenges and opportunities. Here’s to future growth and exploration in the tech world! 🌟
+                                </p>
+                            </p>
+                        </div>
+                    </div>
+                    <script>
+                        document.getElementById("about_AirCanada").addEventListener("click", function () {
+                            if (document.getElementById("about_AirCanada_content").style.display === "none") {
+                                document.getElementById("about_AirCanada_content").style.display = "block";
+                                document.getElementById("down_AirCanada").style.display = "none";
+                                document.getElementById("up_AirCanada").style.display = "inline-block";
+                            } else {
+                                document.getElementById("about_AirCanada_content").style.display = "none";
+                                document.getElementById("down_AirCanada").style.display = "inline-block";
+                                document.getElementById("up_AirCanada").style.display = "none";
+                            }
+    
+                        });
+                    </script>
+                    <br>
+                
 
                 <div class="dropdown">
 
@@ -210,9 +258,6 @@
 
                 </script>
 
-
-
-
                 <div class="dropdown">
                     <button class="" id="about_trade"> Journey of <b
                             style="color:#85bb65; font-family:'Courier New'; font-size: 2.5rem;">Trade $tock</b> <b
@@ -266,6 +311,36 @@
 
             </div>
         </div>
+
+
+
+        <!--
+        
+        <div class="row row_resume">
+
+            <div class="column large-3 medium-3 mob-12" style="text-align: center;">
+                <h3 class="section-header-allcaps resume_heading" style="color: white; font-size: 3.4rem;">RESUME</h3>
+            </div>
+
+            <div class="column large-1 medium-1"></div>
+
+
+            <div class="column large-8 medium-8 mob-12">
+
+                <img src="images/coming soon.jpg" style="height: 95%; width: 55%; padding-bottom: -20%; margin-left: 20%;">
+
+                  
+                    <iframe src="https://drive.google.com/file/d/1UuZOEnGKq2bhdjjvNxwUn46jso2Sa1Ff/preview" allow="autoplay"
+                    class="resume"></iframe>
+                <br><br><br><br><br><br><br><br><br><br> 
+                
+
+
+            </div>
+        </div>
+        <br><br>
+
+        -->
 
     </section> <!-- end s-about -->
 
@@ -512,6 +587,37 @@
             </div>
 
             <div class="column large-8 medium-7 tab-12">
+                
+                <div class="resume-block">
+                    <div class="resume-block__header">
+                        <h4 class="h3" style="color: #E8E8E8;">Software Developer Intern</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Air Canada</span>
+                            <span class="resume-block__header-date">
+                                Jan. 2024 - Aug. 2024
+                            </span>
+                        </p>
+                    </div>
+                    <p>
+                    <ul style="color: #B0B0B0;">
+                        <li> Executed a successful overhaul of Air Canada's Cargo Application with a 12-developer team, using <b style="color: whitesmoke;">Angular, TypeScript,</b> and <b style="color: whitesmoke;">Node.js</b>, expected to increase cargo bookings by <b style="color: whitesmoke;">19%</b> post-launch.</li>
+                        <br>
+                        <li> Integrated real-time AC flight data using Flight <b style="color: whitesmoke;">APIs</b> and <b style="color: whitesmoke;">RxJS</b>, rendering <b style="color: whitesmoke;">1,000+</b> daily flights by fare class and status, boosting data accessibility and cutting search times by <b style="color: whitesmoke;">30%</b>.</li>
+                        <br>
+                        <li> Optimized booking flow using <b style="color: whitesmoke;">NgRx</b>, ensuring seamless cargo data sync across all pages, reducing data flow bugs by <b style="color: whitesmoke;">23%</b>.</li>
+                        <br>
+                        <li> Engineered a dynamic data loader with <b style="color: whitesmoke;">RxJS</b> observables, enhancing UI by eliminating load lag for <b style="color: whitesmoke;">millions</b> of AC users.</li>
+                        <br>
+                        <li> Implemented robust data validation in the app using <b style="color: whitesmoke;">Angular</b> Reactive Forms enabling real-time user feedback, reducing form submission errors by <b style="color: whitesmoke;">85%</b>.</li>
+                        <br>
+                    </ul>
+                    </p>
+                </div> <!-- end resume-block -->
+                <br>
+
+
+
+
                 <div class="resume-block">
                     <div class="resume-block__header">
                         <h4 class="h3" style="color: #E8E8E8;">Senior Full-Stack Developer Intern</h4>
@@ -628,7 +734,6 @@
 
 
         <div class="row s-resume__section">
-
             <div class="column large-2 medium-1 tab-12">
                 <h3 class="section-header-allcaps" style="color: white; font-size: 3rem">EDUCATION</h3>
             </div>
@@ -1031,7 +1136,7 @@
             <div class="row">
                 <div class="column large-10 medium-5 w-1000-stack s-footer__social-block">
                     <ul class="s-footer__social">
-                        <li><a href="https://www.linkedin.com/in/mahad-ali-khan-6398a417b/"><i
+                        <li><a href="https://www.linkedin.com/in/mahad-khan-6398a417b/"><i
                             class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
                         <li><a href="https://github.com/mahad-ak"><i class="fab fa-github" aria-hidden="true"></i></a>
                         </li>
